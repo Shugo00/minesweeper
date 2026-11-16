@@ -1,7 +1,7 @@
 {
   "version": "0.1.0-rc2",
   "source": "releases/0.1.0-rc2/Web",
-  "purpose": "GitHub browser upload; original acceptance candidate remains unchanged",
+  "purpose": "Public GitHub Pages acceptance candidate; original rc2 archives remain unchanged",
   "third_party_files_verified": 113,
   "files": {
     ".nojekyll": {
@@ -9,12 +9,12 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "ACCEPTANCE.md": {
-      "bytes": 2697,
-      "sha256": "c1048d646c3115cf6e6cc92277cecf9172bc5ef1c1d18eddcd228869e8ce5fa2"
+      "bytes": 2983,
+      "sha256": "b7de55a53026581ebe8189a34600b0ee066f76ce1e14090ded8cf814b225a25f"
     },
     "CHECK-STATUS.md": {
-      "bytes": 3268,
-      "sha256": "7f4f5adb993ed2dbd595f22a7b0755bdc4da492d320caf2b7073ac2ae79681a5"
+      "bytes": 3712,
+      "sha256": "1159213ccb602f2f573a1a923bb4bddbba84c803c39fd30e805ae1fe118aff0b"
     },
     "favicon.png": {
       "bytes": 128,
@@ -29,12 +29,12 @@
       "sha256": "841a225d17ba1d8029bcf2356cda4787dcb7b810af5c9da5d051cc2793879580"
     },
     "PLAYING.md": {
-      "bytes": 3756,
-      "sha256": "dc22c5e59b479385adda88912ae2258841f547c48b9960be11be5144b14c8fe2"
+      "bytes": 3713,
+      "sha256": "4ef4822abedfd77a61c4b09914727386b261a827d488c5c281ffbc21db880a9e"
     },
     "README.md": {
-      "bytes": 711,
-      "sha256": "625c9bc569865c14137bb15d1b6e5445cc9c67cd56395c3e526c4bcb4a79c5f3"
+      "bytes": 871,
+      "sha256": "7530d5c1427f4f5b242da2294bb05baa90545d4587cb58022246a22c5e17fe1a"
     },
     "START-HERE.txt": {
       "bytes": 181,
@@ -52,5 +52,6 @@
       "bytes": 15956718,
       "sha256": "3764a2c671a8a0fe1c85f7ddf15c71249c040446e5a1d5c42082ee3822efa449"
     }
-  }
+  },
+  "live_url": "https://shugo00.github.io/minesweeper/"
 }

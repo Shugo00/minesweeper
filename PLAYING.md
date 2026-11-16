@@ -8,7 +8,7 @@ Minesweeper-0.1.0-rc2-Windows.zipを「すべて展開」してMinesweeper.exe�
 
 ## ブラウザ
 
-案内された受入テスト用URLをPCのChromeまたはEdgeで開く．Pythonの導入は不要で，インターネット接続が必要．本人のみの非公開URLの場合は，このゲームを作成した本人のChatGPTアカウントでサインインする．他の人へのURL共有は，その人がアクセスできる共有設定を整えてから行う．
+https://shugo00.github.io/minesweeper/ をPCのChromeまたはEdgeで開く．Pythonの導入やGitHub・ChatGPTのサインインは不要で，インターネット接続が必要．このURLを相手へ渡して利用できる．初回は実行基盤とゲーム本体を読み込むので，画面が表示されるまで待つ．
 
 Minesweeper-0.1.0-rc2-Web.zipはHTTP配信用の保全一式で，index.htmlのダブルクリック起動は対象外．別PCで遊ぶ人へはURLを渡す．自分でローカル配信する場合は展開先で `python -m http.server 18766 --bind 127.0.0.1` を実行し，http://127.0.0.1:18766/ を開く．終了はサーバーのCtrl+C．
 

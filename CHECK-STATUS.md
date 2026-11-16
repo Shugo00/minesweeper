@@ -11,6 +11,7 @@
 | 実行ファイルの生成と起動 | PyInstaller 6.22.3で新規build/windows-rc2へ生成．Windowsの実SDL画面で5フレーム描画，終了コード0．日本語・初級設定画面を画像確認済み |
 | 同梱素材 | 実行ファイル側assetsの13ファイルが元ソースとバイト一致．SE7種・BGM・フォントを含む．ユーザーの記録・設定は同梱しない |
 | Webの生成物 | 113c5c0と同じPython・音源を含むpygbag出力．Chrome 124の実WASM補助検査済み，通常のChrome／Edge操作はST-09の利用者報告で確認．URLを変えた受入環境の確認は別途行う |
+| GitHub Pagesでの実行 | 2026-11-16，公開URLから外部CDNを通常読み込みし，クラウドブラウザの1280×720表示で日本語・初級の開始・開封・時計・右クリック旗・一時停止・明示再開を確認．SE 40%・BGM 20%ミュートを新規タブで再読込して保持を確認し，検査後は初期値へ戻す．実際の聴取・別PCの受入を代行したものではない |
 | ZIPの検査 | 作成処理で全エントリーのハッシュを照合し，結果を版別manifestに記録する．頒布はZIPを全展開し，フォルダ構成を保つ |
 | 未実施 | 別PCでの新ZIPの起動・入力・実聴・保存，受入URLでの別PC確認，利用者の完成判定．12-acceptance-test.md／同梱ACCEPTANCE.mdで確認する |
 
@@ -18,6 +19,6 @@
 
 ブラウザのゲーム本体はPython/WASMで動く．初回にCDNから実行基盤を読み込むためインターネット接続が必要である．AI環境では通常ローカルHTTPとEdge起動に制限があり，Chrome 124の補助検査は予約ドメインへ生成物・既存CDN原本を供給したもの．利用者のST-09通常起動と区別する．
 
-今回のWeb URLの配置状況は別添の案内・docs/verification/acceptance-delivery.jsonで確認する．候補作成や未配信の予定URLを，公開成功・別PCでの受入成功とは扱わない．本人用非公開URLは本人のChatGPTサインインを必要とする．内輪の他人へブラウザURLを渡す場合は，共有対象を整える．Windows ZIPは対象PCへフォルダ全体を渡して確認できる．
+ブラウザ版は https://shugo00.github.io/minesweeper/ で配信する．利用者がPublicでのPages配信を了承し，mainのrootを配信元に設定した．GitHub・ChatGPTのサインインは不要．配信元コミット・結果はdocs/verification/acceptance-delivery.jsonに記録する．AIのURL動作確認と利用者の別PC受入・完成判定を区別する．Windows ZIPは対象PCへフォルダ全体を渡して確認できる．
 
 必須対象はWindows 11 x64・PC Chrome／Edge，表示領域800×600以上．macOS／Linux向け実行ファイルは対象外，モバイル実機は任意・未確認．Colabの縮小版は作らない．
