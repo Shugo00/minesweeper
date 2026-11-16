@@ -1,0 +1,56 @@
+{
+  "version": "0.1.0-rc2",
+  "source": "releases/0.1.0-rc2/Web",
+  "purpose": "GitHub browser upload; original acceptance candidate remains unchanged",
+  "third_party_files_verified": 113,
+  "files": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "ACCEPTANCE.md": {
+      "bytes": 2697,
+      "sha256": "c1048d646c3115cf6e6cc92277cecf9172bc5ef1c1d18eddcd228869e8ce5fa2"
+    },
+    "CHECK-STATUS.md": {
+      "bytes": 3268,
+      "sha256": "7f4f5adb993ed2dbd595f22a7b0755bdc4da492d320caf2b7073ac2ae79681a5"
+    },
+    "favicon.png": {
+      "bytes": 128,
+      "sha256": "bac7f841b2f36567075d75112219feb1dc8092009bc1038326ce3b203fdbca3d"
+    },
+    "index.html": {
+      "bytes": 12533,
+      "sha256": "98f596803faabfd4ed51668a3f9ef254c11c2d087922055315dc8c04c6bc2c33"
+    },
+    "NOTICES.md": {
+      "bytes": 2260,
+      "sha256": "841a225d17ba1d8029bcf2356cda4787dcb7b810af5c9da5d051cc2793879580"
+    },
+    "PLAYING.md": {
+      "bytes": 3756,
+      "sha256": "dc22c5e59b479385adda88912ae2258841f547c48b9960be11be5144b14c8fe2"
+    },
+    "README.md": {
+      "bytes": 711,
+      "sha256": "625c9bc569865c14137bb15d1b6e5445cc9c67cd56395c3e526c4bcb4a79c5f3"
+    },
+    "START-HERE.txt": {
+      "bytes": 181,
+      "sha256": "a7efe03e5a679fcf8a518b022a3d060cf3f7594817eedca7936d05d893ae3f09"
+    },
+    "third-party-notices-and-sources.zip": {
+      "bytes": 11514980,
+      "sha256": "4292acbb5becd1c43129fbd1e5efae296ecbc0aa38513f9abdb8cc3becc6c69f"
+    },
+    "web-source.apk": {
+      "bytes": 15964520,
+      "sha256": "2fc4a1da28378832bfcfc4a7c50ee96be30305c3d5c288c3b004cbcc9c8cc959"
+    },
+    "web-source.tar.gz": {
+      "bytes": 15956718,
+      "sha256": "3764a2c671a8a0fe1c85f7ddf15c71249c040446e5a1d5c42082ee3822efa449"
+    }
+  }
+}
